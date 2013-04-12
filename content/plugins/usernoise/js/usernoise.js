@@ -1,7 +1,7 @@
 usernoise = {};
 jQuery(function($){
-	if ($.browser.msie && ($.browser.version == '6.0' || $.browser.version == '7.0'))
-		return;
+//	if ($.browser.msie && ($.browser.version == '6.0' || $.browser.version == '7.0'))
+//		return;
   function UsernoiseButton(){
 		var self = this;
 		self.show = function(){
