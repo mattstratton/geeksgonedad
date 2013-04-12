@@ -7,10 +7,10 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	include( dirname( __FILE__ ) . '/local-config.php' );
 } else {
 	define( 'WP_LOCAL_DEV', false );
-	define( 'DB_NAME', '%%DB_NAME%%' );
-	define( 'DB_USER', '%%DB_USER%%' );
-	define( 'DB_PASSWORD', '%%DB_PASSWORD%%' );
-	define( 'DB_HOST', '%%DB_HOST%%' ); // Probably 'localhost'
+	define( 'DB_NAME', 'db150603_geekdads' );
+	define( 'DB_USER', 'db150603_geekdad' );
+	define( 'DB_PASSWORD', '****' );
+	define( 'DB_HOST', 'internal-db.s150603.gridserver.com' ); // Probably 'localhost'
 }
 
 // ========================
