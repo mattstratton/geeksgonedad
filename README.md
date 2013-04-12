@@ -45,6 +45,9 @@ After you have done this, you can enable the theme. When you activate it, make s
 **Q:** Why the `/shared/` symlink stuff for uploads?  
 **A:** For local development, create `/shared/` (it is ignored by Git), and have the files live there. This ensures that non-code (uploads, etc) do not get updated into VCS
 
+**Q:** How do I install plugins?
+**A:** Do NOT install plugins via the GUI in production. They should be added to source control (you can add them via gui in your dev system and then git add them and commit)
+
 **Q:** How do we update WordPress?  
 **A:** The submodule needs to be added. Matt will write up a process shortly.
 
