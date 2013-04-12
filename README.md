@@ -19,6 +19,8 @@ First step is to clone this repository into your local dev workstation. I like t
 
 After you have done this, update the local-config.php (see below) with the DB config info you saved earlier. You did save it, right?
 
+Then copy (do not rename!) wp-config-sample.php to wp-config.php. No need to update anything in it.
+
 Then you need to update the wp submodule. From the webroot, run:
 
 	git submodule update --init
