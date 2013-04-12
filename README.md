@@ -27,7 +27,9 @@ Now visit your local dev website using the /wp URL (if you use DesktopServer, th
 
 This will kick off the initial WordPress setup. Put in whatever you want, because we will (eventually) overwrite this with production data. (NOTE - until we are in production, this is not true, so call it the right thing for now)
 
-After you log into the admin screen, enable the theme. When you activate it, make sure you set the settings exactly like this:
+After you log into the admin screen, make sure you set the site URL to NOT include the /wp directory. But the wordpress install should.
+
+After you have done this, you can enable the theme. When you activate it, make sure you set the settings exactly like this:
 
 !(http://imgur.com/evJJCLE)
 
