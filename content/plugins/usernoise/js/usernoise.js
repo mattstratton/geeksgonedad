@@ -15,20 +15,20 @@ jQuery(function($){
 				event.preventDefault();
 				return false;
 			});
-			if ($.browser.msie && $.browser.version == '7.0'){
-				if ($button.is('.un-left') || $button.is('.un-right'))
-					$button.css('margin-top', '-' + $button.width() / 2  + "px");
-				$button.addClass('ie7');
-			} else if ($.browser.msie && $.browser.version == '8.0'){
-				if ($button.is('.un-right')){
-					$button.css('right', "-" + $button.outerWidth() + "px");
-				}
-				if ($button.is('.un-left') || $button.is('.un-right'))
-					$button.css('margin-top', '-' + $button.width() / 2 + "px");
-				$button.addClass('ie8');
-			} else {
+//			if ($.browser.msie && $.browser.version == '7.0'){
+//				if ($button.is('.un-left') || $button.is('.un-right'))
+//					$button.css('margin-top', '-' + $button.width() / 2  + "px");
+//				$button.addClass('ie7');
+//			} else if ($.browser.msie && $.browser.version == '8.0'){
+//				if ($button.is('.un-right')){
+//					$button.css('right', "-" + $button.outerWidth() + "px");
+//				}
+//				if ($button.is('.un-left') || $button.is('.un-right'))
+//					$button.css('margin-top', '-' + $button.width() / 2 + "px");
+//				$button.addClass('ie8');
+//			} else {
 				$button.addClass('css3');
-			}
+//			}
 
 			if ($button.is('.un-bottom') || $button.is('.un-top'))
 				$button.css('margin-left', "-" + ($('#un-button').width() / 2) + "px");
