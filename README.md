@@ -31,7 +31,7 @@ After you log into the admin screen, make sure you set the site URL to NOT inclu
 
 After you have done this, you can enable the theme. When you activate it, make sure you set the settings exactly like this:
 
-!(http://imgur.com/evJJCLE)
+![Instructions](http://i.imgur.com/evJJCLE.png)
 
 
 ## Questions & Answers
