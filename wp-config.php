@@ -9,7 +9,7 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	define( 'WP_LOCAL_DEV', false );
 	define( 'DB_NAME', 'db150603_geekdads' );
 	define( 'DB_USER', 'db150603_geekdad' );
-	define( 'DB_PASSWORD', '****' );
+	define( 'DB_PASSWORD', 'eFHcTLHd29csvg' );
 	define( 'DB_HOST', 'internal-db.s150603.gridserver.com' ); // Probably 'localhost'
 }
 
