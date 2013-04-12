@@ -23,6 +23,10 @@ Then you need to update the wp submodule. From the webroot, run:
 
 	git submodule update --init
 	
+Also, create the following directory in your webroot
+
+	mkdir -p shared/content/uploads
+	
 Now visit your local dev website using the /wp URL (if you use DesktopServer, this is probably http://www.geeksgonedad.dev/wp)
 
 This will kick off the initial WordPress setup. Put in whatever you want, because we will (eventually) overwrite this with production data. (NOTE - until we are in production, this is not true, so call it the right thing for now)
