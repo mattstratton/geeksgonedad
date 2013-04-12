@@ -1,6 +1,6 @@
 jQuery(function($){
-  if ($.browser.msie && ($.browser.version == '6.0' || $.browser.version == '7.0'))
-		return;
+ // if ($.browser.msie && ($.browser.version == '6.0' || $.browser.version == '7.0'))
+//		return;
   usernoiseButton.button = new usernoise.UsernoiseButton();
   usernoise.window = {
   	show: usernoiseButton.button.showWindow
