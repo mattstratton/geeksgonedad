@@ -77,3 +77,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (max-width: 767px) {
 
 }
+
+/* ==========================================================================
+Our crap
+========================================================================== */
+.logo-row {
+	background-image: url("/content/themes/geeksgonedad-roots/assets/img/rowbg.png");
+	background-repeat: repeat
+	
+}

@@ -6,3 +6,5 @@
 /content/upgrade/
 .DS_Store
 codekit-config.json
+sitemap.xml
+sitemap.xml.gz

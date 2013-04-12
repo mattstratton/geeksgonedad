@@ -16,8 +16,17 @@
   <div class="wrap container" role="document">
     <div class="content row">
       <div class="main <?php echo roots_main_class(); ?>" role="main">
+      <?php if (! is_front_page()) { ?>
         <?php include roots_template_path(); ?>
-      </div><!-- /.main -->
+      </div>
+      <?php 
+      } else { ?>
+      <div class="logo-row">
+      <img src = "/content/themes/geeksgonedad-roots/assets/img/ggd.png">
+      </div>
+      
+      <?php } ?>
+      <!-- /.main -->
       <?php if (roots_display_sidebar()) : ?>
       <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
         <?php include roots_sidebar_path(); ?>
