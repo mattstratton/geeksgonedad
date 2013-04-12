@@ -13,7 +13,7 @@ This is the repository for the code and themes for www.geeksgonedad.com
 
 First step is to clone this repository into your local dev workstation. I like to use DesktopServer for this, and if you do as well, the best way to do this is to create a new local WP install, and then copy the DB information somewhere (so you don't lose it, you'll need it later) and then delete everything in the directory. Then clone into the existing webroot for your dev site as such:
 
-	git clone git://github.com/markjaquith/WordPress-Skeleton.git .
+	git clone git://github.com/mattstratton/geeksgonedad.git .
 	
 (this assumes you are running the command from within the now-empty webroot)
 
