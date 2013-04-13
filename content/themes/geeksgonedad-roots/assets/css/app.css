@@ -119,3 +119,8 @@ Our crap
 .bottomnav {
 	padding-bottom: 10px;
 }
+
+.widget_twitter ul li {
+    list-style: none;
+	margin-left: 0;
+}
