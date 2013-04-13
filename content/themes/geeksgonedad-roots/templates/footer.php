@@ -1,7 +1,11 @@
-<footer class="content-info" role="contentinfo">
+<footer id="content-info" class="footer-background" role="contentinfo">
   <div class="container">
-    <?php dynamic_sidebar('sidebar-footer'); ?>
-    <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
+	  <div class="row bottomnav">
+	    <?php dynamic_sidebar('sidebar-footer'); ?>
+	    <div class="span12">
+	    <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
+	    </div>
+	  </div>
   </div>
 </footer>
 

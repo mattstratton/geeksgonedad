@@ -101,3 +101,21 @@ Our crap
 	font-size: 24px;
 	
 }
+
+#content-info {
+	margin-top:45px;
+	padding: 35px 0 36px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color:#e5e5e5;
+	
+}
+
+#menu-footer-navigation {
+	list-style: none;
+	margin-left: 0;
+}
+
+.bottomnav {
+	padding-bottom: 10px;
+}
