@@ -12,20 +12,48 @@
       get_template_part('templates/header');
     }
   ?>
-
+      <?php if (is_front_page()) { ?>
+	      <div class="logo-row">
+	      	<div class="container">
+		      	<img src = "/content/themes/geeksgonedad-roots/assets/img/ggd.png">
+		    </div>
+	      </div>
+	      <div id="wrap" class="container front-page" role="document">
+	      	<div id="content" class="row">
+		      	<div id="main" class="span12" role="main">
+			      	<div class= "row frontpage">
+				      	<div class="span6">
+					      	<strong class="introtitle">Geeks Gone Dad is a thing where we do stuff and we blog about things and talk about how awesome it is to be a dad.</strong>
+					      	<div class="row">
+						      	<div class="span3">
+							      	<h1 class="frontpage-headers">We love being Dads!</h1>
+							      	Being a Dad is what makes us awesome. You know this to be true and that's why you're here.
+							    </div>
+							    <div class="span3">
+								    <h1 class="frontpage-headers">But we are also Geeks</h1>
+								    Technology and other nerdery is the other half of us. We like to do nerdy things and other stuff. Matt doesn't have anything to write here yet.	
+								</div>
+							</div>
+				      	</div>
+							<div class="span6">
+								<img src="/content/themes/geeksgonedad-roots/assets/img/ggd-group.png">
+							</div>
+						</div>
+					</div>
+		      	</div>
+	      </div>
+      <?php } 
+		         else {
+	         ?>
   <div class="wrap container" role="document">
     <div class="content row">
       <div class="main <?php echo roots_main_class(); ?>" role="main">
-      <?php if (! is_front_page()) { ?>
+
         <?php include roots_template_path(); ?>
       </div>
-      <?php 
-      } else { ?>
-      <div class="logo-row">
-      <img src = "/content/themes/geeksgonedad-roots/assets/img/ggd.png">
-      </div>
+
       
-      <?php } ?>
+
       <!-- /.main -->
       <?php if (roots_display_sidebar()) : ?>
       <aside class="sidebar <?php echo roots_sidebar_class(); ?>" role="complementary">
@@ -34,7 +62,7 @@
       <?php endif; ?>
     </div><!-- /.content -->
   </div><!-- /.wrap -->
-
+<?php } ?>
   <?php get_template_part('templates/footer'); ?>
 
 </body>

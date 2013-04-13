@@ -83,6 +83,21 @@ Our crap
 ========================================================================== */
 .logo-row {
 	background-image: url("/content/themes/geeksgonedad-roots/assets/img/rowbg.png");
-	background-repeat: repeat
+	background-repeat: repeat;
+	margin-bottom: 25px;
+	
+}
+
+.front-page {
+	margin-top: 24px;
+	
+}
+
+.introtitle {
+	font-size: 30px;
+}
+
+.frontpage-headers {
+	font-size: 24px;
 	
 }
