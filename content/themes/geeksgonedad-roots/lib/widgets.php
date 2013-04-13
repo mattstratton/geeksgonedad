@@ -16,8 +16,8 @@ function roots_widgets_init() {
   register_sidebar(array(
     'name'          => __('Footer', 'roots'),
     'id'            => 'sidebar-footer',
-    'before_widget' => '<section class="widget %1$s %2$s"><div class="widget-inner footer-widget"><div class="span3">',
-    'after_widget'  => '</div></div></section>',
+    'before_widget' => '<div id="%1$s" class="widget-inner footer-widget %2$s span3">',
+    'after_widget'  => '</div>',
     'before_title'  => '<h3 class="footer-widget-title">',
     'after_title'   => '</h3>',
   ));
