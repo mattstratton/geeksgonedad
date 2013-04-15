@@ -3,6 +3,7 @@
 Template Name: Contributors Page Template
 */
 ?>
+<div class="row-fluid">
 <?php $authors = get_users('exclude=1');
 foreach ($authors as $user) {
 	
@@ -20,3 +21,4 @@ foreach ($authors as $user) {
 		</div>   
 </div>    
     <?php } ?>
+</div>
