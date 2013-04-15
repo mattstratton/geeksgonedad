@@ -5827,6 +5827,25 @@ a.badge:focus {
 .footer-background {
   background: #f2f2f2;
 }
+/* ==========================================================================
+Contributor Page
+========================================================================== */
+.author-row {
+  background-color: #f2f2f2;
+  margin-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+.author-box img {
+  display: block;
+  vertical-align: top;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
 .pull-right {
   float: right;
 }
