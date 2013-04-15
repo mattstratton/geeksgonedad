@@ -810,6 +810,9 @@ address {
   font-style: normal;
   line-height: 20px;
 }
+.authorbio {
+  font-size: 10.5px;
+}
 code,
 pre {
   padding: 0 3px 2px;
