@@ -23,14 +23,16 @@
 		      	<div id="main" class="span12" role="main">
 			      	<div class= "row frontpage">
 				      	<div class="span6">
-					      	<strong class="introtitle">Geeks Gone Dad is a thing where we do stuff and we blog about things and talk about how awesome it is to be a dad.</strong>
+					      	<strong class="introtitle">Geeks Gone Dad is the web home of some of Chicago's geekiest fathers.</strong>
+					      	
 					      	<div class="row">
 						      	<div class="span3">
-							      	<h1 class="frontpage-headers">We love being Dads!</h1>
-							      	Being a Dad is what makes us awesome. You know this to be true and that's why you're here.
+							      	<h1 class="frontpage-headers">We love being Dads</h1>
+							      	Etc, etc, stuff about why being a Dad is so awesome. Content goes here. Someone other than Matt should write it.
+				
 							    </div>
 							    <div class="span3">
-								    <h1 class="frontpage-headers">But we are also Geeks</h1>
+								    <h1 class="frontpage-headers">Geeks FTW</h1>
 								    Technology and other nerdery is the other half of us. We like to do nerdy things and other stuff. Matt doesn't have anything to write here yet.	
 								</div>
 							</div>
