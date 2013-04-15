@@ -3,7 +3,7 @@
 Template Name: Contributors Page Template
 */
 ?>
-<div class="row-fluid author-row span6">
+<div class="row-fluid author-row span8">
 <?php $authors = get_users('exclude=1');
 foreach ($authors as $user) {
 	
