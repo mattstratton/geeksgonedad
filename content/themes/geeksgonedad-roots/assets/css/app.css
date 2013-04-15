@@ -174,3 +174,13 @@ Our crap
 .widget_twitter .intent-meta a:hover.retweet {
     background-position: -96px center;
 }
+
+/* 
+Sidebar
+*/
+
+.widget-sidebar ul {
+	list-style: none;
+	margin-left: 0;
+	
+}
