@@ -1,0 +1,21 @@
+/* humanstxt.org */
+
+/* TEAM */
+
+Coder and Architect: Matt Stratton
+Site: http://www.mattstratton.com
+Twitter: @mattstratton
+Location: Lisle, IL, USA
+
+
+/* THANKS */
+
+Name: Carrie (Matt's Wife)
+Name: Scott Smith (@ourmaninchicago)
+
+
+/* SITE */
+
+Standards: HTML5, CSS3
+Components: Twitter Bootstrap, jQuery, WordPress
+Software: Coda2, TextMate, CodeKit, Git
